@@ -12,6 +12,15 @@
     font-display: swap;
 }
 
+#title {
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+
 body{
     margin: 0;
 }
@@ -24,7 +33,7 @@ main {
 header {
     height: 200px;
     display: flex;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #455ba8;
 }
 
 header > section:nth-child(1){
@@ -41,9 +50,7 @@ header > section:nth-child(2){
     align-items: center;
 }
 
-#home-logo {
-    width: 100px;
-}
+
 
 nav {
     height: 60px;
@@ -207,4 +214,9 @@ footer {
 footer > p {
   font-weight: bold;
   background-color: transparent;
+}
+
+#Projects img {
+    height: 50%;
+    width: 50%;
 }
