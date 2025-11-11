@@ -1,5 +1,15 @@
 * {
     box-sizing: border-box;
+    background-color: #ddd;
+    font-family: 'Pretendard';
+}
+
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
 }
 
 body{
@@ -37,9 +47,10 @@ header > section:nth-child(2){
 
 nav {
     height: 60px;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #455ba8;
     position: sticky;
     top: 0;
+    margin-bottom: 50px;
     
 }
 
@@ -75,4 +86,125 @@ nav a:hover{
   
 }
 
+#About-me {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
 
+
+
+
+table{
+    border: none;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+table th {
+    font-size: 30px;
+}
+
+table > tr {
+    display: flex;
+}
+
+table td {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table li {
+    padding: 5px;
+}
+
+.me-title {
+    color: #455ba8;
+}
+
+
+
+#Education, #Projects, #Contact {
+    border-top: 2px solid #455ba8;
+    margin-bottom: 30px;
+}
+
+#Contact > form {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+}
+
+#Contact > form > fieldset {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#contact-info {
+    flex-basis: 70%;
+}
+
+#submit-info {
+    flex-basis: 30%;
+}
+
+#button {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background-color: #455ba8;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+#name {
+    flex-basis: 30%;
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+}
+
+#email {
+    flex-basis: 30%;
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+}
+
+#tel {
+    flex-basis: 40%;
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+}
+
+footer {
+  height: 200px;
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > p {
+  font-weight: bold;
+  background-color: transparent;
+}

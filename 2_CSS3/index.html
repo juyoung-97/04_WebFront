@@ -22,27 +22,101 @@
 
     <nav>
       <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Education/Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a href="#About-me">About Me</a></li>
+        <li><a href="#Education">Education/Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact Me</a></li>
       </ul>
     </nav>
 
-    <section>
-      <h3>About Me</h3>
+
+      <h2>About Me</h2> <br>
+        <section id="About-me">
+          <table border="1">
+            <tr class="me-title">
+              <th height="100px" width="400px">이름</th>
+              <th height="100px" width="400px">생년월일</th>
+              <th height="100px" width="400px">거주지역</th>
+            </tr>
+
+            <tr>
+              <th height="100px">전주영</th>
+              <th height="100px">1997. 12. 29</th>
+              <th height="100px">서울시 노원구</th>
+            </tr>
+
+            <tr class="me-title">
+              <th height="100px">전화번호</th>
+              <th height="100px">이메일</th>
+              <th height="100px">경력</th>
+            </tr>
+
+            <tr>
+              <th height="100px">010-2186-8825</th>
+              <th height="100px">boduni20@gmail.com</th>
+              <th height="100px">Frontend 1년차</th>
+            </tr>
+          </table>
+         </section>
+    <section id="Education">
+      <h2>Education/Skills</h2>
+      <table border="1">
+
+        <tr>
+          <th height="100px" width="500px">교육 및 학력사항</th>
+          <th width="500px">보유 기술(기술 스택)</th>
+          
+        </tr>
+
+        <tr>
+          <td height="150px" width="500px">React & Spring 활용 <br>자바(Java) 개발자 양성과정 이수</td>
+          <td height="150px" width="500px" rowspan="2"><ul>
+            <li>Java</li>
+            <li>DB</li>
+            <li>WebFront</li>
+            <li>JavaScript</li>
+            <li>Sarvlet</li>
+            <li>JSP</li>
+          </ul>
+        </td>
+        </tr>
+
+        <tr>
+          <td height="150px" width="500px">대학교 재학중 중퇴(고졸)</td>
+        </tr>
+
+      </table>
     </section>
-    <section>
-      <h3>Education/Skills</h3>
+    <section id="Projects">
+    <h2>Projects</h2>
+    <h4>Java를 활용한 ToyFactory Class</h4>
+    <img src="/images/이미지저장/12.png" alt="ToyFactory"> <br>
+    <h4>JDBC를 활용한 학생 관리 프로그램</h4>
+    <img src="/images/이미지저장/13.png" alt="JDBC"> <br>
+    <h4>WebFront를 활용한 당근마켓 화면 클론코딩</h4>
+    <img src="/images/이미지저장/14.png" alt="WebFront">
     </section>
-    <section>
-    <h3>Projects</h3>
-    </section>
-    <section>
-    <h3>Contact Me</h3>
+    <section id="Contact">
+    <h2>Contact Me</h2>
+    <form action="/contact-me" method="post">
+      <fieldset>
+        <section id="contact-info">
+     <input type="text" placeholder="이름" id="name"> <br>
+     <input type="email" placeholder="E-mail" id="email"> <br>
+     <input type="tel" placeholder="010-0000-0000" id="tel">
+        </section>
+        <section id="submit-info">
+     <button type="submit" id="button">제출</button>
+        </section>
+      </fieldset>
+    </form>
+
     </section>
   </main>
 
-  <footer></footer>
+  <footer>
+     <p>Copyright &copy; KH Information Educational Institute E-Class</p>
+
+  </footer>
 </body>
 </html>
