@@ -1,0 +1,14 @@
+#size {
+  width: 50px;
+}
+
+#color {
+  width: 120px;
+}
+
+#content {
+  width: 400px;
+  height: 180px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
